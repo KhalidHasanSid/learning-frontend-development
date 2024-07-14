@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+     body{
+        background-color: brown;
+     }
+   .heading  h2{
+    border:2px solid rgb(62, 13, 177);
+    
+       width: 10%;
+        margin: auto;
+    }
+    .con{
+        border:4px solid white;
+        border-radius: 6px;
+        width: 50vw;
+        height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+
+    }
+    .btn{
+        border: 0px;
+        font-weight: bolder;
+        font-size: x-large;
+        color: black;
+        background-color: blanchedalmond;
+        width: 31%;
+        height: 18vh;
+        margin: 6px;
+    }
+    #rest{
+        background-color: black;
+        color: white;
+        position: relative;
+        top :10px;
+        left: 45%;
+        width: 120px;
+        height: 9vh;
+        border-radius: 8px;
+
+
+    }
+    @media only screen and (max-width: 1028px){
+        .con{
+            width: 98%;
+            
+           
+        }
+        .heading  h2{
+            width: 100%;
+           
+        }
+
+    }
+        @media only screen and (max-width: 542px){
+        .btn{
+        width: 30%;
+        height: 18vh;
+        margin: 4px;
+    }
+    }
+</style>
+<body id="bo">
+    <div class="heading">
+        <h2>Tic Tac toe</h2>
+    </div>
+    <div class="con">
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+        <button class="btn"></button>
+    </div>
+    <button id="rest" >RESET</button>
+
+    <script src="tictic.js">
+
+    </script>
+</body>
+</html>

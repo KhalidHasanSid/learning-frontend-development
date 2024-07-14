@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.login-form{
+    text-align: center;
+}
+#section{
+    text-align: right;
+    
+    width: 50%;
+ 
+  margin:25px auto;
+    
+}
+form{
+    border: 2px solid blue;
+    height:30vh;
+    width: 30%;
+    margin: 0% auto;
+}
+h2{
+    color: blue;
+    margin: auto;
+    text-align: center;
+}
+.textbox{
+    border: 2px solid black;
+}
+
+.btn{
+    color: rgb(6, 167, 6);
+    width: 20%;
+    height: 5vh;
+    font-weight: bolder;
+     
+ 
+}

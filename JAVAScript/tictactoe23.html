@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            border: 2px solid red;
+            width: 500px;
+            margin: auto;
+        }
+        .main{
+            margin: auto;
+            border: 2px solid blue;
+            width: 55%;
+            height: 70vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            background-color: palegoldenrod;
+          
+}
+.main .btn{
+    margin: 12px;
+    width: 28%;
+    height: 18vh;
+    background-color:#ffffc7;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.main .hor1{
+
+    width: 5px;
+    height: 65vh;
+    position: absolute;
+    background-color: black;
+    left: 558px;
+}
+.main .hor2{
+    
+    
+    width: 5px;
+    height: 65vh;
+   
+    position: absolute;
+    background-color: black;
+    left: 800px;
+}
+.main .ver1{
+
+  
+    width: 51vw;
+    height: 0.9vh;
+   
+    position: absolute;
+    background-color: black;
+    top: 200px;}
+    .main .ver2{
+display: flex;
+    
+    width: 51vw;
+    height: 0.9vh;
+   
+    position: absolute;
+    background-color: black;
+    top: 333px;}
+    
+    </style>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="main">
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+       <button class="btn"></button>
+    
+       <div class="hor1"></div>
+       <div class="hor2"></div>
+       <div class="ver1"></div>
+       <div class="ver2"></div>
+    </div>
+    <script src="tictactoe.js"></script>
+ 
+</body>
+</html>

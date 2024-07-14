@@ -1,0 +1,18 @@
+h1, label, input[type="button"] {
+    color: blue;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    border: 1px solid black;
+  }
+  
+  form {
+    border: 1px solid red;
+  }
+  
+  #login-form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: right;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qurani Ayah Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Qurani Ayah Finder</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <label for="surah-name">Enter Surah name:</label>
+            <input id="surahno" type="text" name="a">
+            <label for="ayah-number">Enter Ayah Number:</label>
+            <input id="ayatno" type="number" name="b">
+            <div class="buttons">
+                <button id="search" type="button">Search</button>
+                <button type="button" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="results">
+            <h4>English translation:</h4>
+            <div id="translation" name="c"></div>
+            <h4>Arabic text:</h4>
+            <div id="arabic-text" name="d"></div>
+            <button id="save" type="button">Save</button>
+        </div>
+    </main>
+    <script src="quranapi.js"></script>
+</body>
+</html>

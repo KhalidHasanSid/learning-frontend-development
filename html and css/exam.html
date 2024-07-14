@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="aaa">
+    <span id="sp">Fullname:</span>
+    <input  id="in"type="text"  >
+    <button id="btn" onclick="good()">submit</button>
+    
+    <script >
+        function good(){
+            let abc=document.getElementById("aaa");
+            let s=document.getElementById("sp");
+           let btn=document.getElementById("btn");
+        let input1=document.getElementById("in");
+        
+        let gettext= input1.value;
+        console.log(gettext)
+        if(gettext.length>3){
+           s.remove();
+           input1.remove();
+            let msg=document.createElement("h2");
+           let mms= msg.innerText="Welcome "+ gettext;
+           abc.append(msg);
+           
+           btn.remove();
+
+
+        }
+    }
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="stylet.css">
+</head>
+<body>
+    <h2>Login registration</h2>
+    <div class="login-form">
+        <form>
+            <div id="section" >
+                <label>LoginID:</label><br>
+                <input class="textbox" type="text" required>
+                <br>
+                <label>Password:</label><br>
+                <input class="textbox" type="password>" required>
+            </div>
+
+            <input class="btn" type="button" value="ok"  onclick="msg()">
+            <input class="btn" type="button" value="cancel" onclick="cancel()">
+        </form>
+    </div>
+    <script>
+        function msg()
+        {
+            alert("login is clicked");
+        }
+        function cancel()
+        {
+            alert("cancel is clicked");
+        }
+    </script>
+</body>
+</html>

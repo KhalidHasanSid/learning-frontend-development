@@ -1,0 +1,21 @@
+{
+  "name": "web-engineering-project",
+  "version": "1.0.0",
+  "description": "trying to connrct database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "fectch"
+  ],
+  "author": "khalid hasan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1"
+  }
+}

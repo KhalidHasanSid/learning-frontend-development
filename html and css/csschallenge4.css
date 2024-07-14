@@ -1,0 +1,8 @@
+
+p{ background-color: blue;
+color: white;}
+p:first-child{
+    color: red;
+    background-color: yellow;
+    border: 2px solid red;
+}
